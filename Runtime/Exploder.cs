@@ -5,12 +5,16 @@ using UnityEngine;
 
 namespace CodeCatGames.HMHelpers.Runtime
 {
+    /// <summary>
+    /// A class responsible for managing explosion effects on pieces in the game.
+    /// It handles explosion force application and piece refreshment after the explosion.
+    /// </summary>
     public sealed class Exploder : MonoBehaviour
     {
         #region Fields
         [Header("Explosion Settings")]
         [SerializeField] private PiecesFindingTypes findingType = PiecesFindingTypes.Physic;
-        [SerializeField] private LayerMask pieceLayer;
+        [SerializeField] private LayerMask pieceLayer = ~0;
         [SerializeField] private List<Rigidbody> pieces;
         [SerializeField] private Vector3 explosionPosOffset = Vector3.zero;
         [Range(0f, 100f)][SerializeField] private float radius = 1f;
@@ -30,6 +34,9 @@ namespace CodeCatGames.HMHelpers.Runtime
         #endregion
 
         #region Executes
+        /// <summary>
+        /// Initiates the explosion, applying explosion force to nearby pieces.
+        /// </summary>
         public void Explode()
         {
             Vector3 explosionPos = transform.position + explosionPosOffset;
@@ -43,6 +50,10 @@ namespace CodeCatGames.HMHelpers.Runtime
 
             pieces.ForEach(x => x.AddExplosionForce(force, explosionPos, radius, upwardModifier, forceMode));
         }
+        
+        /// <summary>
+        /// Refreshes the positions and rotations of the pieces based on the specified refresh type.
+        /// </summary>
         public void Refresh()
         {
             SetPiecesPhysicActivation(false);

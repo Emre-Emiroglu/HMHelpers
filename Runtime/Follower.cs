@@ -2,6 +2,9 @@
 
 namespace CodeCatGames.HMHelpers.Runtime
 {
+    /// <summary>
+    /// A class that handles following the target's position and rotation with specified lerping options.
+    /// </summary>
     public sealed class Follower : MonoBehaviour
     {
         #region Fields

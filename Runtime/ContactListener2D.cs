@@ -2,6 +2,9 @@
 
 namespace CodeCatGames.HMHelpers.Runtime
 {
+    /// <summary>
+    /// A class for handling 2D contact events (collisions or triggers).
+    /// </summary>
     [RequireComponent(typeof(Rigidbody2D))]
     public sealed class ContactListener2D : ContactListener
     {

@@ -3,11 +3,25 @@ using UnityEngine;
 
 namespace CodeCatGames.HMHelpers.Runtime
 {
+    /// <summary>
+    /// Abstract base class for handling contact events (collisions or triggers) in both 2D and 3D contexts.
+    /// </summary>
     public abstract class ContactListener : MonoBehaviour
     {
         #region Actions
+        /// <summary>
+        /// Enter callback action for different enter contact events.
+        /// </summary>
         public Action<Collision, Collision2D, Collider, Collider2D> EnterCallBack;
+        
+        /// <summary>
+        /// Stay callback action for different stay contact events.
+        /// </summary>
         public Action<Collision, Collision2D, Collider, Collider2D> StayCallBack;
+        
+        /// <summary>
+        /// Exit callback action for different exit contact events.
+        /// </summary>
         public Action<Collision, Collision2D, Collider, Collider2D> ExitCallBack;
         #endregion
         
@@ -18,7 +32,16 @@ namespace CodeCatGames.HMHelpers.Runtime
         #endregion
 
         #region Executes
-        protected void ContactStatus(ContactStatusTypes contactStatusType, string tagName,
+        /// <summary>
+        /// Checks and invokes the correct callback for the contact status (Enter, Stay, Exit).
+        /// </summary>
+        /// <param name="contactStatusType">Type of contact (Enter, Stay, Exit)</param>
+        /// <param name="tagName">Tag of the object involved in the contact</param>
+        /// <param name="contactCollision">Collision event (3D)</param>
+        /// <param name="contactCollision2D">Collision event (2D)</param>
+        /// <param name="contactCollider">Collider event (3D)</param>
+        /// <param name="contactCollider2D">Collider event (2D)</param>
+        public void ContactStatus(ContactStatusTypes contactStatusType, string tagName,
             Collision contactCollision = null, Collision2D contactCollision2D = null, Collider contactCollider = null,
             Collider2D contactCollider2D = null)
         {
