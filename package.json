@@ -1,0 +1,19 @@
+{
+  "name": "com.codecatgames.hmhelpers",
+  "version": "1.0.0",
+  "displayName": "HMHelpers",
+  "description": "HMHelpers is a ...",
+  "author": {
+    "name": "Emre Emiroglu",
+    "email": "emirogluemre08@gmail.com",
+    "url": "https://github.com/Emre-Emiroglu"
+  },
+  "keywords": [
+    "helpers",
+    "unity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Emre-Emiroglu/HMHelpers.git"
+  }
+}
