@@ -1,0 +1,29 @@
+# Unity Cache and Temp files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+
+# JetBrains Rider / VS
+*.csproj
+*.sln
+*.suo
+*.user
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+.idea/
+.vscode/
+
+# OS Stuff
+.DS_Store
+Thumbs.db
+
+# Optional: if you don't want to commit .meta files (careful!)
+# *.meta
+
+# Logs
+*.log
