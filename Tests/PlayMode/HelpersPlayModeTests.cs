@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Reflection;
-using CodeCatGames.HMHelpers.Runtime;
+using HMHelpers.Runtime;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-namespace CodeCatGames.HMHelpers.Tests.PlayMode
+namespace HMHelpers.Tests.PlayMode
 {
     public sealed class HelpersPlayModeTests
     {

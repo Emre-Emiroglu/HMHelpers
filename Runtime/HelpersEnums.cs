@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CodeCatGames.HMHelpers.Runtime
+namespace HMHelpers.Runtime
 {
     public enum PiecesFindingTypes
     {

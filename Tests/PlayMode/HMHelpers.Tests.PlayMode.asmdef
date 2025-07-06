@@ -1,14 +1,12 @@
 {
-    "name": "CodeCatGames.HMHelpers.Tests.EditMode",
-    "rootNamespace": "CodeCatGames.HMHelpers.Tests.EditMode",
+    "name": "HMHelpers.Tests.PlayMode",
+    "rootNamespace": "HMHelpers.Tests.PlayMode",
     "references": [
         "GUID:27619889b8ba8c24980f49ee34dbb44a",
         "GUID:0acc523941302664db1f4e527237feb3",
         "GUID:cc89ab7c7fcc40d4893c84b0b1136dce"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

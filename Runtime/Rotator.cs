@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CodeCatGames.HMHelpers.Runtime
+namespace HMHelpers.Runtime
 {
     /// <summary>
     /// A class that rotates an object around a specified axis with a given speed in either world or local space.

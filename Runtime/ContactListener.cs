@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace CodeCatGames.HMHelpers.Runtime
+namespace HMHelpers.Runtime
 {
     /// <summary>
     /// Abstract base class for handling contact events (collisions or triggers) in both 2D and 3D contexts.

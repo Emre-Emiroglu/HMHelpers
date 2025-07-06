@@ -1,10 +1,10 @@
 {
-  "name": "com.codecatgames.hmhelpers",
-  "version": "1.0.1",
+  "name": "com.emreemiroglu.hmhelpers",
+  "version": "1.0.0",
   "displayName": "HMHelpers",
   "description": "HMHelpers is a Unity package that provides useful utilities to make game development faster and easier. Designed to work with both 2D and 3D games, it helps developers save time.",
   "author": {
-    "name": "Code Cat Games",
+    "name": "Emre Emiroglu",
     "email": "emirogluemre08@gmail.com",
     "url": "https://github.com/Emre-Emiroglu"
   },

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace CodeCatGames.HMHelpers.Runtime
+namespace HMHelpers.Runtime
 {
     /// <summary>
     /// A countdown timer class that handles countdown logic with optional pause functionality.

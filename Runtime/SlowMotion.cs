@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CodeCatGames.HMHelpers.Runtime
+namespace HMHelpers.Runtime
 {
     /// <summary>
     /// A class that handles slow motion functionality by adjusting the timescale and fixed delta time.

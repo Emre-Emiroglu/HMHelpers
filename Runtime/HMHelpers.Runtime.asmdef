@@ -1,6 +1,6 @@
 {
-    "name": "CodeCatGames.HMHelpers.Runtime",
-    "rootNamespace": "CodeCatGames.HMHelpers.Runtime",
+    "name": "HMHelpers.Runtime",
+    "rootNamespace": "HMHelpers.Runtime",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

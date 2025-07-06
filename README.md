@@ -1,3 +1,5 @@
+<img src="icon.jpg" width="512" height="512" alt="HMSHelpers Logo">
+
 # HMHelpers
 HMHelpers is a helper package designed to streamline common tasks in Unity projects. It offers various helper functions for tasks like handling contact events, managing countdowns, applying explosion effects, following objects, rotating objects, and implementing slow motion. This package aims to make Unity development faster and easier by providing essential tools right out of the box.
 
@@ -6,8 +8,8 @@ HMHelpers offers the following capabilities:
 * Contact Handling: Abstract base class and concrete implementations for managing 2D and 3D collision and trigger events with tag filtering and callbacks.
 * Countdown Timer: A flexible countdown timer class with pause, resume, and value manipulation functionalities, including optional unscaled time updates and end callbacks.
 * Explosion Effects: A component to apply explosion forces to nearby rigidbodies and optionally refresh them to their original positions with smooth or instant transitions.
-* Object Following: A component to make a GameObject smoothly or instantly follow the position and/or rotation of a target Transform in world or local space.
-* Object Rotation: A component to rotate a GameObject around a specified axis with a defined speed in world or local space.
+* Object Following: A component to make a GameObject smoothly or instantly follow the position and/or rotation of a target Transform in the world or local space.
+* Object Rotation: A component to rotate a GameObject around a specified axis with a defined speed in the world or local space.
 * Slow Motion: A class to easily activate and deactivate slow-motion effects by adjusting the timescale.
 
 ## Getting Started
@@ -93,7 +95,7 @@ This project is developed using Unity version 6000.0.42f1.
 * Object Following:
     * Add the `Follower` script to the GameObject you want to follow another.
     * In the Inspector, assign the Follower Transform and the Target Transform.
-    * Configure the follow type (position, rotation, or both), space types (world or local), and lerp settings (smooth or instant, and speed).
+    * Configure the following type (position, rotation, or both), space types (world or local), and lerp settings (smooth or instant, and speed).
     * Enable the Can Follow checkbox to start the following behavior.
 
 * Object Rotation:

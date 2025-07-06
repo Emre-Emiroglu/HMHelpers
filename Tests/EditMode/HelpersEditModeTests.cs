@@ -1,7 +1,7 @@
-﻿using CodeCatGames.HMHelpers.Runtime;
+﻿using HMHelpers.Runtime;
 using NUnit.Framework;
 
-namespace CodeCatGames.HMHelpers.Tests.EditMode
+namespace HMHelpers.Tests.EditMode
 {
     public sealed class HelpersEditModeTests
     {
