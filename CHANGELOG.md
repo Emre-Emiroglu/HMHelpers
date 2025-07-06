@@ -9,9 +9,9 @@
 - SlowMotion: Added class for slowing down in-game timescale and returning to normal speed.
 - Helper enums: Added PiecesFindingTypes, RefreshTypes, FollowTypes, LerpTypes, ContactTypes, and ContactStatusTypes enums.
 - Comprehensive test coverage:
-  - EditMode tests for verifying Countdown functionality's pause and time modification features
-  - PlayMode tests for runtime behavior validation of Countdown, Follower, Rotator, and SlowMotion components
-  - Test framework with both PlayMode and EditMode testing assemblies
+  - EditMode tests for verifying Countdown functionality's pause and time modification features.
+  - PlayMode tests for runtime behavior validation of Countdown, Follower, Rotator, and SlowMotion components.
+  - Test framework with both PlayMode and EditMode testing assemblies.
 
 ### Changed
 - N/A
