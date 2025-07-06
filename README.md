@@ -1,4 +1,4 @@
-<img src="icon.jpg" width="512" height="512" alt="HMSHelpers Logo">
+<img src="icon.jpg" width="512" height="512" alt="HMHelpers Logo">
 
 # HMHelpers
 HMHelpers is a helper package designed to streamline common tasks in Unity projects. It offers various helper functions for tasks like handling contact events, managing countdowns, applying explosion effects, following objects, rotating objects, and implementing slow motion. This package aims to make Unity development faster and easier by providing essential tools right out of the box.

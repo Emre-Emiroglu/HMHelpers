@@ -1,7 +1,5 @@
 ﻿## [1.0.0] - 2025-07-06
 
-First release of HMHelpers, a useful utility package for Unity.
-
 ### Added
 - Exploder: Added component for managing explosion effects. Features include applying explosion force to pieces with physics-based and manual piece finding support, and refreshing pieces after explosion.
 - Countdown: Added class for handling in-game countdown functionality with pause support and countdown value modification.
