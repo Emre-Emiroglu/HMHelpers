@@ -1,4 +1,4 @@
-﻿## [1.0.0] - 2025-07-06
+﻿## [1.0.0] - 2025-07-07
 
 ### Added
 - Exploder: Added component for managing explosion effects. Features include applying explosion force to pieces with physics-based and manual piece finding support, and refreshing pieces after explosion.
